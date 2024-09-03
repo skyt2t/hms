@@ -1,0 +1,21 @@
+/* Style for the language select dropdown */
+#language-select {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  background: #fff;
+  cursor: pointer;
+  /* Add some margin to move it slightly inward from the right edge */
+  margin-right: 20px;
+}
+
+/* Ensure the settings container is aligned properly in the navbar */
+.settings {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Pushes the settings to the right side */
+  /* Optional: add some padding to the right to avoid touching the edge */
+  padding-right: 50px;
+}
